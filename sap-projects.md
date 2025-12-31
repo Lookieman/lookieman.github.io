@@ -1,7 +1,10 @@
 # SAP Data Management Project Experience
 
 ## Solution Lead for S/4 MDG Implementation
-**Global Bank , Singapore, singapore**
+**Global Bank , Singapore, Singapore**
+
+### Project Cost: SGD 1.5M - 2.5M
+### Num of Users: ~25 - 50 Phase 1, ~ >100 for final global rollout
 
 - Conducted feasibility study in identifying correct solution to replace current legacy governance tool for Master Data.
 - Conducted design workshops to gather requirements for building governance tool using SAP Master Data Governance
@@ -9,6 +12,9 @@
 
 ## Data Governance Expert
 **Mining Corporation, Perth, Australia**
+
+### Project Cost: ~ SGD 100K
+### Num of Users: N/A
 
 - Conducted workshops with Lines of Business to assess Data Maturity and identify gaps and pain points in Data Management for the organisation
 - Provided an assessment of the data maturity and recommendations on bridging the gap
@@ -19,6 +25,9 @@
 ## Solution Expert for S/4 MDG Implementation
 **Diversified Conglomerate, Manila, Philippines**
 
+### Project Cost: SGD 1M - 2M
+### Num of Users: 10 - 20
+
 - Solution Architect for the MDG project consolidating Vendor and Material Master from 5 different subsidiaries
 - Successfully integrated SAP MDG with Ariba SLP using SAP standard integrations
 - Led team of 10 consultants during implementation
@@ -28,6 +37,9 @@
 ## Solution Expert for S/4 MDG Implementation
 **Retail Pharmaceutical Company, Melbourne, Australia**
 
+### Project Cost: SGD 1M - 2M
+### Num of Users: 10 - 20
+
 - Provided advisory services on SAP MDG functionality to the stream leads and different Line of Business Subject Matter Experts
 - Designed innovative solution to use SAP Business Technology Platform (BTP) Identity Management API together with Custom Fiori on Cloud and integrate with SAP MDG
 - Provided detailed design solution for implementing SAP MDG Supplier and integrating with 3rd party systems to enrich data
@@ -36,6 +48,9 @@
 
 ## SAP Data Architect
 **Consumer Beverage Manufacturer, Sydney, Australia**
+
+### Project Cost: SGD 9M - 11M
+### Number of Users: 20 - 50 
 
 - Data Architect and EIM Advisor for the data management portion during the Prepare and Explore phases in the first rollout
 - Conducted Scoping and Blueprint Workshops with various stakeholders and guided partner on best design for SAP MDG Solution
@@ -47,6 +62,9 @@
 
 ## Solution Expert for S/4 MDG Implementation
 **Federal Government, Brisbane, Australia**
+
+### Project Cost: SGD 9M - 11M
+### Number of Users: 20 - 50 
 
 - Provided advisory services on SAP MDG functionality to the stream leads and different Line of Business Subject Matter Experts
 - Provided detailed design solution for implementing SAP MDG (Finance, Material, Vendor, Customer and Custom Objects) including Rule-Based Workflow using BRF+ and using Data Import Framework to initial load Finance Data into SAP MDG
