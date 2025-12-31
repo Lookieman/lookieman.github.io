@@ -1,5 +1,25 @@
 # AI & Machine Learning Project Portfolio
 
+## Statement of Work Draft Generator
+**Organisation:** SAP Asia Pte Ltd, Singapore  
+**Timeline:** October - Jan 2026  
+**Role:** Technical Lead & Framework Designer
+
+Designed and developed a Retrieval-Augmented Generation (RAG) system that automates the creation of Statement of Work documents for SAP implementation projects. The application leverages anonymised historical SOW examples to ground LLM outputs, producing professionally formatted Word documents with standardised sections including Introduction, Scope, Detailed Scope, Exclusions, and Assumptions.
+
+**Key Contributions:**
+- Architected end-to-end document generation pipeline with modular service-oriented design supporting RAG retrieval, LLM generation, and Word document creation
+- Implemented intelligent chunking strategy with metadata-based filtering to retrieve contextually relevant examples by scenario type (SAP SDT, SAP MDG) and document section
+- Developed structured prompting framework using DSPy signatures for each SOW section, enabling consistent and controllable content generation
+- Created document conversion pipeline to transform existing Word and PDF SOW documents into structured markdown format with anonymisation protocols
+- Designed Flask-based web interface for user input collection and document download, with architecture optimised for future SAP BTP migration
+
+**Technologies Used:** Python, Flask, RAG, LlamaIndex, ChromaDB, DSPy, Claude Haiku (Anthropic API), python-docx, Jinja2
+
+**Impact:** Streamlined SOW creation process for SAP consultants by reducing document drafting time through automated retrieval of relevant examples and structured content generation, while maintaining consistency with organisational standards and best practices.
+
+---
+
 ## RAG System Evaluation Framework for Enterprise Knowledge Base
 **Organisation:** SAP Asia Pte Ltd, Singapore  
 **Timeline:** October - December 2025  
