@@ -1,8 +1,30 @@
 # AI & Machine Learning Project Portfolio
 
+
+## LLM-Based PII Anonymisation Evaluation Framework
+**Organisation:** SAP Asia Pte Ltd, Singapore (Customer Data Hub Team)  
+**Timeline:** November 2025 - June 2026 (Planned)  
+**Role:** Technical Lead & Evaluation Framework Designer
+
+Designing and implementing a comprehensive evaluation framework to assess whether Large Language Models can outperform existing anonymisation solutions (GLiNER, DPI) for Personally Identifiable Information detection and masking. The project aims to support investment decisions for LLM-based anonymisation at CPIT by providing quantitative comparative analysis across multiple languages and code-switching scenarios.
+
+**Key Contributions:**
+- Architected end-to-end evaluation pipeline with three-level assessment: mention-level coverage (privacy protection), type-level accuracy using IoU-based span matching, and index-level consistency for co-reference tracking
+- Designed three-tier comparison methodology isolating the value of each component: naive baseline, DSPy Chain-of-Thought structured prompting, and GEPA-optimised prompts for systematic performance attribution
+- Developed comprehensive multilingual test dataset covering 7 languages (English, German, Chinese, French, Spanish, Japanese, Portuguese) with culturally-appropriate PII formats and three levels of code-switching complexity
+- Implemented DSPy programmatic prompt engineering framework integrated with SAP Generative AI Hub, replacing manual string-based prompt crafting with structured signatures and automated optimisation
+- Created modular evaluation framework supporting 17 entity types with equivalence groups, configurable IoU thresholds, and automated Excel report generation with embedded visualisations
+- Designed integration patterns for SAP AI Core deployment including Databricks (MLflow experiment tracking, Delta Lake storage) and BTP Cloud Foundry architectures
+
+**Technologies Used:** Python, DSPy, GEPA, SAP AI Core, SAP Generative AI Hub, GPT-4, Claude 3.5 Sonnet, NLP, Named Entity Recognition, IoU-based Span Matching, pandas, openpyxl, Statistical Analysis (scipy)
+
+**Current Status:** Design phase complete with 12-section technical design document. Dataset generation completed for English with 300 records across training, validation, and test splits. Implementation of DSPy-based anonymisation pipeline and GEPA prompt optimisation in progress, with delivery target of 27 February 2026.
+
+---
+
 ## Statement of Work Draft Generator
 **Organisation:** SAP Asia Pte Ltd, Singapore  
-**Timeline:** October - Jan 2026  
+**Timeline:** October - Feb 2026 (Planned) 
 **Role:** Technical Lead & Framework Designer
 
 Designed and developed a Retrieval-Augmented Generation (RAG) system that automates the creation of Statement of Work documents for SAP implementation projects. The application leverages anonymised historical SOW examples to ground LLM outputs, producing professionally formatted Word documents with standardised sections including Introduction, Scope, Detailed Scope, Exclusions, and Assumptions.
@@ -20,30 +42,10 @@ Designed and developed a Retrieval-Augmented Generation (RAG) system that automa
 
 ---
 
-## RAG System Evaluation Framework for Enterprise Knowledge Base
-**Organisation:** SAP Asia Pte Ltd, Singapore  
-**Timeline:** October - December 2025  
-**Role:** Technical Lead & Framework Designer
-
-Designed and implemented a comprehensive evaluation framework for assessing Retrieval-Augmented Generation (RAG) systems deployed on SAP's internal knowledge base. The framework enables systematic evaluation of both retrieval quality and generation accuracy whilst comparing different prompt engineering approaches.
-
-**Key Contributions:**
-- Architected end-to-end evaluation pipeline measuring retrieval metrics (Precision@K, Recall@K, F1, MRR, NDCG) and generation quality (faithfulness, relevance, answer correctness)
-- Implemented comparison framework between manual string-based prompts and DSPy programmatic approaches, enabling data-driven decisions on prompt engineering methodology
-- Designed ground truth generation strategies and quality assessment protocols for creating reliable evaluation datasets
-- Integrated with SAP infrastructure including SAP HANA DB for vector storage and SAP AI Core for LLM/embedding services
-- Developed modular Python framework supporting batch evaluation of 100-500 questions with comprehensive logging and reporting
-
-**Technologies Used:** Python, RAG, RAGAS framework, DSPy, NLP, SAP HANA DB, SAP AI Core, GPT-4, OpenAI Embeddings
-
-**Impact:** Enabled systematic assessment of RAG system performance across multiple dimensions, providing quantitative metrics to guide system improvements and validate deployment decisions for enterprise knowledge management.
-
----
-
 ## AI-Enabled Pathogen Tracking System for Food Safety Monitoring
 **Client:** Singapore Food Agency (SFA)  
 **Institution:** Nanyang Technological University (Master's Project)  
-**Timeline:** August 2025 - March 2026  
+**Timeline:** August 2025 - March 2026 (Planned)  
 **Role:** Researcher & Developer
 
 Developing an advanced automated system to extract pathogen assay information from scientific literature, significantly improving upon existing BERT-based extraction tools. The project addresses critical food safety monitoring needs by automating literature review for pathogen surveillance.
@@ -70,6 +72,26 @@ Developing an advanced automated system to extract pathogen assay information fr
 **Technologies Used:** Python, DSPy, GEPA, LLMs (GPT-4, Gemini 2.0), BERT, NLP, NCBI E-utilities API, XML Processing, AWS Bedrock, Google Colab, Information Extraction
 
 **Current Status:** Code delivery January 2026, final report February 2026. System designed for scalable deployment across multiple pathogens for Singapore's food safety infrastructure.
+
+---
+
+## RAG System Evaluation Framework for Enterprise Knowledge Base
+**Organisation:** SAP Asia Pte Ltd, Singapore  
+**Timeline:** October - December 2025  
+**Role:** Technical Lead & Framework Designer
+
+Designed and implemented a comprehensive evaluation framework for assessing Retrieval-Augmented Generation (RAG) systems deployed on SAP's internal knowledge base. The framework enables systematic evaluation of both retrieval quality and generation accuracy whilst comparing different prompt engineering approaches.
+
+**Key Contributions:**
+- Architected end-to-end evaluation pipeline measuring retrieval metrics (Precision@K, Recall@K, F1, MRR, NDCG) and generation quality (faithfulness, relevance, answer correctness)
+- Implemented comparison framework between manual string-based prompts and DSPy programmatic approaches, enabling data-driven decisions on prompt engineering methodology
+- Designed ground truth generation strategies and quality assessment protocols for creating reliable evaluation datasets
+- Integrated with SAP infrastructure including SAP HANA DB for vector storage and SAP AI Core for LLM/embedding services
+- Developed modular Python framework supporting batch evaluation of 100-500 questions with comprehensive logging and reporting
+
+**Technologies Used:** Python, RAG, RAGAS framework, DSPy, NLP, SAP HANA DB, SAP AI Core, GPT-4, OpenAI Embeddings
+
+**Impact:** Enabled systematic assessment of RAG system performance across multiple dimensions, providing quantitative metrics to guide system improvements and validate deployment decisions for enterprise knowledge management.
 
 ---
 

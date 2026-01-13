@@ -4,7 +4,7 @@
 **Global Bank , Singapore, Singapore**
 
 ### Project Cost: SGD 1.5M - 2.5M
-### Num of Users: ~25 - 50 Phase 1, ~ >100 for final global rollout
+### Num of Users: ~25 - 50 in Phase 1, > 100 for final global rollout Feb '26
 
 - Conducted feasibility study in identifying correct solution to replace current legacy governance tool for Master Data.
 - Conducted design workshops to gather requirements for building governance tool using SAP Master Data Governance
@@ -30,7 +30,7 @@
 
 - Solution Architect for the MDG project consolidating Vendor and Material Master from 5 different subsidiaries
 - Successfully integrated SAP MDG with Ariba SLP using SAP standard integrations
-- Led team of 10 consultants during implementation
+- Led team of 10 consultants during implementation and testing
 
 ---
 
