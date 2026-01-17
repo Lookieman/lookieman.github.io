@@ -4,7 +4,7 @@ title: Luqman Ali - Portfolio
 
 # Luqman Ali
 
-**Data Management & AI Leader | SAP Asia | Singapore**
+Data Management & AI Leader | SAP Asia | Singapore
 
 ## About Me
 
@@ -31,7 +31,6 @@ Recent work applying artificial intelligence to practical challenges, including 
 - **Business growth** expanding SAP MDG practice from zero to 10+ annual engagements and scaling premium services to 600+ consultant days
 - **Innovation focus** implementing AI/ML pilots including RAG/LLM solutions and regression-based estimation tools
 - **Academic pursuit** Master's in AI at NTU, applying cutting-edge techniques to real-world problems
-- **Industry recognition** Two-time SAP Catalyst award recipient for exceptional leadership and delivery
 
 ## Technical Expertise
 
