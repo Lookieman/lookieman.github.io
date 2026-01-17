@@ -18,7 +18,7 @@ Designing and implementing a comprehensive evaluation framework to assess whethe
 
 **Technologies Used:** Python, DSPy, GEPA, SAP AI Core, SAP Generative AI Hub, GPT-4, Claude 3.5 Sonnet, NLP, Named Entity Recognition, IoU-based Span Matching, pandas, openpyxl, Statistical Analysis (scipy)
 
-**Current Status:** Design phase complete with 12-section technical design document. Dataset generation completed for English with 300 records across training, validation, and test splits. Implementation of DSPy-based anonymisation pipeline and GEPA prompt optimisation in progress, with delivery target of 27 February 2026.
+**Current Status:** Design phase complete with 12-section technical design document. Dataset generation completed for English with 300 records across training, validation, and test splits. Implementation of DSPy-based anonymisation pipeline and GEPA prompt optimisation in progress, with delivery target of 27 April 2026.
 
 ---
 
@@ -71,7 +71,7 @@ Developing an advanced automated system to extract pathogen assay information fr
 
 **Technologies Used:** Python, DSPy, GEPA, LLMs (GPT-4, Gemini 2.0), BERT, NLP, NCBI E-utilities API, XML Processing, AWS Bedrock, Google Colab, Information Extraction
 
-**Current Status:** Code delivery January 2026, final report February 2026. System designed for scalable deployment across multiple pathogens for Singapore's food safety infrastructure.
+**Current Status:** Code delivery end January 2026, final report February 2026. System designed for scalable deployment across multiple pathogens for Singapore's food safety infrastructure.
 
 ---
 
