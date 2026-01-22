@@ -34,7 +34,7 @@ Recent work applying artificial intelligence to practical challenges, including 
 
 ## Technical Expertise
 
-**Enterprise Solutions:** SAP S/4HANA, SAP MDG, SAP BTP, Data Architecture, Master Data Governance
+**Enterprise Solutions:** SAP S/4HANA, SAP MDG, SAP BTP, SAP AI Core, Databricks, Data Architecture, Master Data Governance
 
 **AI & Machine Learning:** Large Language Models, RAG Systems, NLP, PyTorch, DSPy, Prompt Engineering
 
@@ -42,13 +42,13 @@ Recent work applying artificial intelligence to practical challenges, including 
 
 ## Current Focus
 
-I'm particularly interested in the intersection of enterprise data management and artificial intelligence—exploring how AI can transform how organisations govern, manage, and derive value from their data assets. My Master's project with the Singapore Food Agency exemplifies this, applying LLMs and prompt optimisation to automate critical food safety monitoring processes.
+I'm particularly interested in the intersection of enterprise data management and artificial intelligence, keen in exploring how AI can transform how organisations govern, manage, and derive value from their data assets. My Master's project with the Singapore Food Agency exemplifies this, applying LLMs and prompt optimisation to automate critical food safety monitoring processes.
 
 ## Connect
 
 I'm always interested in discussing data transformation, AI applications in enterprise contexts, or opportunities to collaborate on challenging technical problems.
 
-**LinkedIn:** [Connect with me on LinkedIn](https://www.linkedin.com/in/your-profile)  
+**LinkedIn:** [Connect with me on LinkedIn](https://www.linkedin.com/in/luqman-mohdali)  
 **GitHub:** [github.com/lookieman](https://github.com/lookieman)  
 **Location:** Singapore
 

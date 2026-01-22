@@ -16,7 +16,7 @@ Designing and implementing a comprehensive evaluation framework to assess whethe
 - Created modular evaluation framework supporting 17 entity types with equivalence groups, configurable IoU thresholds, and automated Excel report generation with embedded visualisations
 - Designed integration patterns for SAP AI Core deployment including Databricks (MLflow experiment tracking, Delta Lake storage) and BTP Cloud Foundry architectures
 
-**Technologies Used:** Python, DSPy, GEPA, SAP AI Core, SAP Generative AI Hub, GPT-4, Claude 3.5 Sonnet, NLP, Named Entity Recognition, IoU-based Span Matching, pandas, openpyxl, Statistical Analysis (scipy)
+**Technologies Used:** Python, DSPy, GEPA, SAP AI Core, SAP Generative AI Hub, Azure Databricks, GPT-4, Claude 3.5 Sonnet, NLP, Named Entity Recognition, IoU-based Span Matching, pandas, openpyxl, Statistical Analysis (scipy)
 
 **Current Status:** Design phase complete with 12-section technical design document. Dataset generation completed for English with 300 records across training, validation, and test splits. Implementation of DSPy-based anonymisation pipeline and GEPA prompt optimisation in progress, with delivery target of 27 April 2026.
 
