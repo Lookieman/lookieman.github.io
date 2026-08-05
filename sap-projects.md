@@ -1,7 +1,46 @@
-# SAP Data Management Project Experience
+# SAP AI and Data Projects
+
+Enterprise engagements across the Asia-Pacific region, covering applied AI and agentic solutions, data architecture, master data governance and data quality. Listed with the most recent work first.
+
+---
+
+## Business AI Architect, Applied AI Practice
+
+**Multiple Customers, APAC Region**
+
+### Num of Users: 2 colleagues mentored, 20+ account teams engaged
+
+- Built the Applied AI practice for the region, positioning SAP Business AI, Joule and agentic AI with Customer Success Managers, Enterprise Architects and account teams
+- Screened 92 customer AI and generative AI use cases against system access limits and against capability already shipped by SAP, producing a shortlist of seven buildable clusters and a recommended primary build
+- Led a two-week agent build for a consumer electronics manufacturer, delivering an agent that triages credit-blocked sales orders on SAP BTP with GenAI Hub, Business Data Cloud and an S/4HANA Cloud appliance
+- Designed the evaluation method for the build, using three synthetic data sets and a pre-written answer key so that accuracy is measured against data the builders have never seen
+- Mentored two colleagues from a Python-only starting point to a working agent, using a diverge-then-converge model with independent builds, blind comparison and peer presentation of each other's components
+- Produced an agent use case portfolio of ten use cases across data foundation, migration and operations, and governance, risk and security, plus a field catalogue of 152 SAP and Global Delivery Hub agents
+- Developed AgentDQ, a self-initiated agentic pipeline for automated data quality rule synthesis, built with DSPy for structured LLM components and LangGraph for orchestration
+- Designed a source-agnostic migration and data quality pipeline covering source profiling, harmonisation, rule synthesis, entity resolution, reference data gap detection and dependency-aware load sequencing
+- Built a 30-slide co-sell deck for Customer Success Managers and Enterprise Architects, and shaped the regional go-to-market agenda with an account-fit rubric, a commercial motion section and a RACI for the handoff
+- Contributed content and audience polls to the Joule for Consultants webinar, and supported a second customer-facing session on agentic AI
+- Supported pre-sales and proposal work across AI, Business Data Cloud and BTP positioning, including a 20-slide Business AI activation deck for a defence and security programme and a comparative analysis of partner AI proposals
+- Led the response to a data quality monitoring modernisation request covering 106 requirements, producing the target architecture, a rule triage framework and a phased pilot recommendation
+
+---
+
+## Data Architect for Business Data Cloud Adoption
+
+**Public Sector Agency, Singapore**
+
+### Num of Users: N/A
+
+- Data Architect on a data architecture programme, positioning SAP Business Data Cloud and Datasphere as the target data foundation, including S/4HANA integration, data products, replication and the path away from BW
+- Advised on the data management and data governance operating model, covering data ownership, stewardship roles and decision rights for a business and advisory audience
+- Developed a phased adoption roadmap with milestones and KPIs, tailored to the customer's starting position
+- Carried a dual role on the engagement, adding Business AI and agentic AI positioning on the SAP Business AI Platform alongside the data architecture scope
+- Worked in close collaboration with the SAP Customer Success Manager, Solution Engineer and Account Executive, and alongside the customer's implementation partner
+
+---
 
 ## Solution Lead for S/4 MDG Implementation
-**Global Bank , Singapore, Singapore**
+**Global Bank, Singapore**
 
 ### Project Cost: SGD 1.5M - 2.5M
 ### Num of Users: ~25 - 50 in Phase 1, > 100 for final global rollout Feb '26
@@ -9,6 +48,8 @@
 - Conducted feasibility study in identifying correct solution to replace current legacy governance tool for Master Data.
 - Conducted design workshops to gather requirements for building governance tool using SAP Master Data Governance
 - Lead an implementation team of 5 people to implement, test and deploy framework based on design requirements gathered.
+
+---
 
 ## Data Governance Expert
 **Mining Corporation, Perth, Australia**
@@ -50,7 +91,7 @@
 **Consumer Beverage Manufacturer, Sydney, Australia**
 
 ### Project Cost: SGD 9M - 11M
-### Number of Users: 20 - 50 
+### Number of Users: 20 - 50
 
 - Data Architect and EIM Advisor for the data management portion during the Prepare and Explore phases in the first rollout
 - Conducted Scoping and Blueprint Workshops with various stakeholders and guided partner on best design for SAP MDG Solution
@@ -64,7 +105,7 @@
 **Federal Government, Brisbane, Australia**
 
 ### Project Cost: SGD 9M - 11M
-### Number of Users: 20 - 50 
+### Number of Users: 20 - 50
 
 - Provided advisory services on SAP MDG functionality to the stream leads and different Line of Business Subject Matter Experts
 - Provided detailed design solution for implementing SAP MDG (Finance, Material, Vendor, Customer and Custom Objects) including Rule-Based Workflow using BRF+ and using Data Import Framework to initial load Finance Data into SAP MDG
