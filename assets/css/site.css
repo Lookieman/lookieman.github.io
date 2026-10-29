@@ -244,3 +244,4 @@ h3 { font-size: 1.25rem; font-weight: 700; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
 }
+.wide > p, .wide > ul, .wide > ol, .wide > blockquote { max-width: 46rem; }

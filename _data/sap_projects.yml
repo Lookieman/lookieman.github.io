@@ -1,0 +1,179 @@
+# Data management engagements at SAP, most recent first.
+# domain is one of: MDG, governance, architecture, integration.
+# No project cost, customer names or customer milestone dates.
+
+- title: Data architect for Business Data Cloud adoption
+  descriptor: Public-sector agency
+  country: Singapore
+  domain: architecture
+  role: Data architect
+  team_size:
+  users:
+  summary: Set SAP Business Data Cloud and Datasphere as the target data foundation, with a path away from BW.
+  bullets:
+    - Positioned SAP Business Data Cloud and Datasphere as the target data foundation. The scope covered S/4HANA integration, data products, replication and the path away from BW.
+    - Advised on the data management and data governance operating model. This covered data ownership, stewardship roles and decision rights for a business audience.
+    - Wrote a phased adoption roadmap with milestones and KPIs, fitted to the customer's starting position.
+    - Held a dual role and added Business AI and agentic AI positioning on the SAP Business AI Platform.
+    - Worked with the SAP Customer Success Manager, Solution Engineer and Account Executive, and with the customer's implementation partner.
+
+- title: Solution lead for S/4HANA MDG implementation
+  descriptor: Global bank
+  country: Singapore
+  domain: MDG
+  role: Solution lead
+  team_size: "5"
+  users: "25 to 50 in phase 1; more than 100 at global rollout"
+  summary: Replaced a legacy master data governance tool with SAP Master Data Governance.
+  bullets:
+    - Ran a feasibility study to choose the replacement for the legacy master data governance tool.
+    - Ran design workshops to collect requirements for the new tool on SAP Master Data Governance.
+    - Led a team of five to build, test and roll out the solution to the agreed design.
+
+- title: Data governance expert
+  descriptor: Mining corporation
+  country: Australia
+  domain: governance
+  role: Data governance expert
+  team_size:
+  users:
+  summary: Assessed data maturity and set a target operating model for data management.
+  bullets:
+    - Ran workshops with lines of business to assess data maturity and find gaps and pain points in data management.
+    - Gave an assessment of data maturity and recommendations to close the gaps.
+    - Guided the customer on an operating model for its data management organisation, and on tools for data quality rules and governance processes.
+
+- title: Solution expert for S/4HANA MDG implementation
+  descriptor: Diversified conglomerate
+  country: Philippines
+  domain: MDG
+  role: Solution architect
+  team_size: "10"
+  users: "10 to 20"
+  summary: Consolidated vendor and material master data from five subsidiaries into SAP MDG.
+  bullets:
+    - Solution architect for the MDG project that consolidated vendor and material master data from five subsidiaries.
+    - Integrated SAP MDG with Ariba SLP through SAP standard integration.
+    - Led a team of ten consultants through build and test.
+
+- title: Solution expert for S/4HANA MDG implementation
+  descriptor: Retail pharmaceutical company
+  country: Australia
+  domain: MDG
+  role: Solution expert
+  team_size:
+  users: "10 to 20"
+  summary: Designed supplier governance on SAP MDG with identity checks on SAP BTP.
+  bullets:
+    - Advised stream leads and line-of-business subject matter experts on SAP MDG functions.
+    - Designed a solution that joins the SAP BTP Identity Management API and a custom Fiori app on SAP BTP to SAP MDG.
+    - Wrote the detailed design for SAP MDG Supplier and its integration with third-party systems that enrich data.
+
+- title: SAP data architect
+  descriptor: Consumer beverage manufacturer
+  country: Australia
+  domain: architecture
+  role: Data architect and EIM advisor
+  team_size:
+  users: "20 to 50"
+  summary: Shaped the data management and analytics design for the first S/4HANA rollout.
+  bullets:
+    - Data architect and EIM advisor for data management in the Prepare and Explore phases of the first rollout.
+    - Ran scoping and blueprint workshops, and guided the partner on the SAP MDG design.
+    - Advised on the analytics strategy for S/4HANA and the position of each analytics solution.
+    - Advised the system integrator on SAP MDG design, build and integration with SAP and non-SAP systems.
+    - Helped fix ABAP code in SAP MDG BAdIs for email notifications and context-based routing.
+
+- title: Solution expert for S/4HANA MDG implementation
+  descriptor: Federal government department
+  country: Australia
+  domain: MDG
+  role: Solution expert
+  team_size: "5"
+  users: "20 to 50"
+  summary: Designed SAP MDG for finance, material, vendor, customer and custom objects.
+  bullets:
+    - Advised stream leads and line-of-business subject matter experts on SAP MDG functions.
+    - Wrote the detailed design for SAP MDG finance, material, vendor, customer and custom objects. The design used rule-based workflow in BRF+ and the Data Import Framework for the initial finance load.
+    - Led a team of five to build, test and deploy SAP MDG.
+    - Advised on data migration to S/4HANA and SAP MDG with SAP Data Services.
+
+- title: SAP Master Data Governance expert
+  descriptor: Machinery and electronics manufacturer
+  country: Japan
+  domain: MDG
+  role: Solution architect and EIM expert
+  team_size:
+  users:
+  summary: Set the governance scope and enhancement design for an MDG material project.
+  bullets:
+    - Solution architect and EIM expert for the MDG material project.
+    - Advised on the governance scope of the data model.
+    - Guided the team on enhancements and the overall SAP MDG design.
+
+- title: SAP Master Data Governance expert
+  descriptor: Oil and gas corporation
+  country: Australia
+  domain: governance
+  role: Escalation reviewer
+  team_size:
+  users:
+  summary: Reviewed an escalated governance programme and its SAP MDG solution.
+  bullets:
+    - Reviewed the data governance programme and the SAP MDG solution for several master data domains, as part of an escalation.
+    - Found the issues and gave fixes that let the customer get value from its SAP MDG investment.
+
+- title: Data management expert for data governance implementation
+  descriptor: Agribusiness conglomerate
+  country: Malaysia
+  domain: governance
+  role: Data management expert and team lead
+  team_size: "5 to 10"
+  users:
+  summary: Centralised material master data so the customer could trust its spend analysis.
+  bullets:
+    - Advised the customer on the roles, responsibilities and operating model of its data management team.
+    - Designed a solution with SAP MDG, Data Services and Information Steward to standardise and centralise material master data for spend analysis.
+    - Built enhancements for context-based routing and email notification in workflow, with SAP MDG BAdIs.
+    - Designed and built standardisation of material descriptions from the customer's rules.
+    - Led five to ten consultants to build an MDG solution with DQM for SAP duplicate checks and real-time description standardisation in SAP Data Services.
+
+- title: SAP MDG functional lead
+  descriptor: Fonterra, dairy manufacturer
+  country: New Zealand
+  domain: MDG
+  role: Functional lead
+  team_size: "10 to 15"
+  users:
+  summary: Delivered the first SAP MDG project in the ANZ region.
+  bullets:
+    - Led ten to fifteen consultants as functional lead on the first SAP MDG project in the ANZ region. The scope was MDG customer and supplier, then MDG material.
+    - Extended the data model with custom attributes and custom objects.
+    - Guided data stewards on SAP MDG functions and on governance practice from other projects.
+    - Advised the business owner and solution architect on data quality trend monitoring with Information Steward.
+
+- title: Solution lead for SAP NetWeaver MDM and DQM for SAP
+  descriptor: Shipping and logistics company
+  country: Singapore
+  domain: MDG
+  role: Solution lead
+  team_size:
+  users:
+  summary: Delivered a central master data solution after two earlier attempts had failed.
+  bullets:
+    - Delivered the first DQM for SAP project in Asia, with real-time address validation and duplicate checks in CRM.
+    - Designed and led a central MDM solution on SAP NetWeaver MDM, with IBM DataStage to cleanse and migrate data.
+    - The MDM initiative had failed twice before this project.
+
+- title: Solution lead for SAP NetWeaver MDM and SAP PI
+  descriptor: Ericsson, telecommunications
+  country: Sweden
+  domain: integration
+  role: Technical lead, then solution expert
+  team_size: "12 onsite, 5 offsite"
+  users:
+  summary: Led master data and integration design across seven full software lifecycles.
+  bullets:
+    - Held leadership roles in seven full software lifecycles, from technical lead to solution expert for SAP NetWeaver MDM and SAP PI.
+    - Solution expert for integration. Reviewed and designed every interface between systems across projects.
+    - Development lead for the master data domain design on SAP NetWeaver MDM, with 12 onsite and 5 offsite team members.

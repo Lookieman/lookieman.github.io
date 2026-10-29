@@ -9,7 +9,7 @@ layout: default
     {% if page.intro %}<p class="lede">{{ page.intro }}</p>{% endif %}
   </header>
   {% endunless %}
-  <div class="prose">
+  <div class="prose{% if page.wide %} wide{% endif %}">
     {{ content }}
   </div>
 </article>
