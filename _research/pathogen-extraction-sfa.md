@@ -10,9 +10,7 @@ repo:
 featured: true
 diagram: |
   flowchart LR
-    P[PubMed full text] --> S1[Stage 1: isolate IDs]
-    S1 --> S2[Stage 2: assay data]
-    S2 --> E[Scored output]
+      A[Full text] --> B[Stage 1] --> C[Stage 2]
 ---
 <!-- TODO(owner): reconcile the micro-F1 figures (0.52 to 0.65) with the stage F1 figures on the old ai-projects page (Stage 1: 87%, Stage 2: 78.5%). This page shows only micro-F1. -->
 <!-- TODO(owner): confirm the status label and the "What I would change" text. -->

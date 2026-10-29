@@ -10,9 +10,7 @@ repo:
 featured: true
 diagram: |
   flowchart LR
-    D[Multilingual test set] --> M[Candidate methods]
-    M --> S[Three-level scorer]
-    S --> R[Report]
+      A[Test set] --> B[Methods] --> C[Scorer]
 ---
 <!-- TODO(owner): confirm the number of entity types the framework supports before you publish it. The earlier page said 17. -->
 <!-- TODO(owner): confirm the status label (Prototype) and the "What I would change" text. -->

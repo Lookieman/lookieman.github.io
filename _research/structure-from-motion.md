@@ -10,10 +10,7 @@ repo:
 featured: false
 diagram: |
   flowchart LR
-    I[Images] --> A[Scene analysis]
-    A --> P[Parameter choice]
-    P --> C[COLMAP]
-    C --> M[Metrics]
+      A[Images] --> B[Scene score] --> C[COLMAP]
 ---
 <!-- TODO(owner): confirm the status label and the "What I would change" text. -->
 

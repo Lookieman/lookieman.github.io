@@ -105,7 +105,7 @@
     if (!mermaidPromise) mermaidPromise = import(MERMAID_URL).then(function (m) { return m.default; });
     var seq = ++renderSeq;
     mermaidPromise.then(function (mermaid) {
-      mermaid.initialize({
+      var base = {
         startOnLoad: false,
         securityLevel: "strict",
         theme: "base",
@@ -126,10 +126,14 @@
           edgeLabelBackground: cssVar("--surface"),
           fontSize: "15px"
         }
-      });
+      };
       diagrams.reduce(function (p, el, i) {
         return p.then(function () {
           if (seq !== renderSeq) return;
+          var small = el.classList.contains("card-diagram");
+          mermaid.initialize(Object.assign({}, base, { flowchart: small
+            ? { htmlLabels: false, curve: "basis", useMaxWidth: true, nodeSpacing: 18, rankSpacing: 22, padding: 6, diagramPadding: 2 }
+            : { htmlLabels: false, curve: "basis", useMaxWidth: true } }));
           return mermaid.render("mmd-" + seq + "-" + i, el.getAttribute("data-src")).then(function (out) {
             if (seq === renderSeq) el.innerHTML = out.svg;
           }).catch(function () { el.textContent = ""; });

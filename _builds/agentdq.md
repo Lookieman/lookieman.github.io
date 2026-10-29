@@ -10,11 +10,7 @@ repo: https://github.com/Lookieman/agentdq
 featured: true
 diagram: |
   flowchart LR
-    P[Profile] --> S[Suggest rules]
-    S --> R[(Rules repository)]
-    H[Steward approves] --> R
-    R --> X[Execute]
-    X --> C[Scorecard]
+      A[Agents propose] --> B[Person approves] --> C[Code runs]
 ---
 <!-- TODO(owner): confirm the "What I would change" text, and the reason given for rejecting jaro_winkler. -->
 

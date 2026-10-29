@@ -10,10 +10,7 @@ repo: https://github.com/Lookieman/kaki-talkie
 featured: false
 diagram: |
   flowchart LR
-    K[Kiosk button] --> T[Speech to text]
-    T --> Q[Retrieve and answer]
-    Q --> V[Text to speech]
-    V --> K
+      A[Voice in] --> B[Local AI] --> C[Voice out]
 ---
 <!-- TODO(owner): confirm the Problem wording and the "What I would change" text. -->
 

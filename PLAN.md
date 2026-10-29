@@ -63,3 +63,11 @@ Branch: `revamp`. `main` stays unchanged until the owner approves a merge.
 ## Phase 6: Report
 
 - Summary, TODO list, preview command.
+
+## Phase 5 results (2026-10-29)
+
+- `bundle exec jekyll build`: no errors.
+- `scripts/check_publishing.sh`: passes. Tested against planted terms first.
+- `htmlproofer`: did not install cleanly (nokogiri binary mismatch on system Ruby 2.6), so it was skipped. A scripted internal link and anchor check found one missing target: `/assets/cv/Luqman_Ali_CV.pdf` (owner TODO).
+- Contrast: all text and badge colours pass WCAG AA on every background in both modes (lowest 5.5:1 light, 7.0:1 dark).
+- 375 px and 1440 px review in light and dark mode: no horizontal scroll. Filters, menu, theme toggle and redirects tested.
