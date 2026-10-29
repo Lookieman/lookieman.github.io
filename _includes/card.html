@@ -1,0 +1,18 @@
+{%- assign c = include.item -%}
+<article class="card">
+  {% if c.diagram %}
+  <div class="card-figure" aria-hidden="true">
+    <pre class="mermaid-src">{{ c.diagram | xml_escape }}</pre>
+  </div>
+  {% endif %}
+  <div class="card-body">
+    <div class="card-meta">
+      {% include status-badge.html status=c.status %}
+      <span class="mono muted">{{ c.year }}</span>
+    </div>
+    <h3 class="card-title"><a href="{{ c.url | relative_url }}">{{ c.title }}</a></h3>
+    {% if c.descriptor and c.descriptor != "" %}<p class="card-descriptor mono">{{ c.descriptor }}</p>{% endif %}
+    <p class="card-summary">{{ c.summary }}</p>
+    {% include tags.html tags=c.tags limit=4 %}
+  </div>
+</article>

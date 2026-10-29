@@ -1,0 +1,38 @@
+<header class="sidebar">
+  <div class="sidebar-inner">
+    <div class="sidebar-top">
+      <a class="name" href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    </div>
+    <div class="sidebar-panel" id="site-nav">
+      <p class="tagline">{{ site.tagline }}</p>
+      <nav aria-label="Site">
+        <ol class="nav">
+          {% for item in site.data.nav %}
+            {% assign active = false %}
+            {% if item.url == "/" %}
+              {% if page.url == "/" or page.url == "/index.html" %}{% assign active = true %}{% endif %}
+            {% elsif page.url contains item.url or page.section == item.url %}
+              {% assign active = true %}
+            {% endif %}
+            <li class="nav-item{% if active %} is-current{% endif %}">
+              <a href="{{ item.url | relative_url }}"{% if active %} aria-current="page"{% endif %}>
+                <span class="nav-num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+                <span class="nav-label">{{ item.title }}</span>
+              </a>
+              {% if active %}<ol class="subnav" data-subnav hidden></ol>{% endif %}
+            </li>
+          {% endfor %}
+        </ol>
+      </nav>
+      <ul class="links">
+        <li><a href="{{ site.links.linkedin }}">LinkedIn</a></li>
+        <li><a href="{{ site.links.github }}">GitHub</a></li>
+        <li><a href="{{ site.links.cv | relative_url }}">CV (PDF)</a></li>
+      </ul>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch colour theme">
+        <span class="mono">Theme</span> <span data-theme-label>Auto</span>
+      </button>
+    </div>
+  </div>
+</header>

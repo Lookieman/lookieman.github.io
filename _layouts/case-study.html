@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{% assign parent = site.data.nav | where: "url", page.section | first %}
+<article class="page numbered case-study">
+  <header class="page-header">
+    <p class="kicker"><a href="{{ page.section | relative_url }}">{{ parent.title }}</a></p>
+    <h1>{{ page.title }}</h1>
+    <p class="lede">{{ page.summary }}</p>
+    <dl class="facts">
+      <div><dt>Status</dt><dd>{% include status-badge.html status=page.status %}</dd></div>
+      <div><dt>Year</dt><dd>{{ page.year }}</dd></div>
+      {% if page.descriptor and page.descriptor != "" %}<div><dt>Context</dt><dd>{{ page.descriptor }}</dd></div>{% endif %}
+      {% if page.repo %}<div><dt>Code</dt><dd><a href="{{ page.repo }}">{{ page.repo | remove: "https://" }}</a></dd></div>{% endif %}
+    </dl>
+    {% include tags.html tags=page.tags %}
+  </header>
+  <div class="prose">
+    {{ content }}
+  </div>
+  <p class="back"><a href="{{ page.section | relative_url }}">Back to {{ parent.title }}</a></p>
+</article>
