@@ -1,0 +1,11 @@
+# Only entries with a url that starts with http are shown on the site.
+- series: AgentDQ
+  title: "Where Should the Intelligence Live in a Data Quality System?"
+  date: TODO
+  summary: "Why AgentDQ uses agents for judgement and deterministic code for execution."
+  url: TODO
+- series: AgentDQ
+  title: "Can an Agent Decide What Your Data Quality Rules Should Be?"
+  date: TODO
+  summary: "How a rule-suggestion agent proposes rules for a data steward to approve."
+  url: TODO

@@ -1,0 +1,44 @@
+# Short cards only. Live customer work: descriptor, problem, role and status.
+# No customer names, figures, requirement counts or milestone dates.
+customers:
+  - descriptor: Global consumer products manufacturer
+    problem: Planners spend hours finding why a SKU goes short in a future week.
+    role: Build lead
+    status: Design
+  - descriptor: Global consumer products manufacturer
+    problem: Analysts review credit-blocked orders by hand every day.
+    role: Build lead
+    status: Design
+  - descriptor: Global airline
+    problem: Cost-planning simulation leaves error lines and missing services.
+    role: Design and build lead
+    status: Design
+  - descriptor: Korean food manufacturer
+    problem: The weekly SKU review is rebuilt by hand from custom reports.
+    role: Architecture advisor
+    status: Design
+  - descriptor: National power utility
+    problem: Officers key service purchase orders by hand against term contracts, with frequent coding errors.
+    role: Use-case assessment, solution design and AI governance pack
+    status: Design
+  - descriptor: Public-sector division
+    problem: Move analytics dashboards to Databricks and keep row-level authorisation correct.
+    role: Data architect
+    status: Design
+
+# TODO(owner): confirm the status of both accelerators.
+internal:
+  - title: Statement of work draft generator
+    problem: Consultants write each statement of work from scratch, with uneven scope, exclusions and assumptions.
+    detail: Retrieval over anonymised past statements of work, filtered by scenario and section. DSPy signatures draft each section, and the tool writes a formatted Word document.
+    role: Technical lead and framework designer
+    year: 2026
+    status: Prototype
+    tags: [RAG, LlamaIndex, ChromaDB, DSPy]
+  - title: RAG evaluation framework
+    problem: Teams could not compare retrieval and answer quality on an internal knowledge base in a repeatable way.
+    detail: Measures retrieval (Precision@K, Recall@K, MRR, NDCG) and answers (faithfulness, relevance, correctness) over batches of 100 to 500 questions. Compares hand-written prompts with DSPy programs.
+    role: Technical lead and framework designer
+    year: 2025
+    status: Prototype
+    tags: [RAGAS, DSPy, SAP HANA vectors, SAP AI Core]
