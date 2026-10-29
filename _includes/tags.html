@@ -1,0 +1,6 @@
+{%- if include.tags and include.tags.size > 0 -%}
+{%- assign max = include.limit | default: 99 -%}
+<ul class="tags" aria-label="Technologies">
+  {%- for t in include.tags limit: max %}<li>{{ t }}</li>{% endfor -%}
+</ul>
+{%- endif -%}

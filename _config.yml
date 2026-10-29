@@ -1,3 +1,68 @@
 title: Luqman Ali
-description: SAP Data Management & AI Project Portfolio
-theme: jekyll-theme-minimal
+tagline: "Enterprise AI architect. I take AI agents from discovery to production on SAP, and I write about what works."
+description: "Enterprise AI architect at SAP in Singapore. Method, case studies and writing on AI agents and SAP data."
+url: "https://lookieman.github.io"
+baseurl: ""
+lang: en-GB
+locale: en_GB
+
+author:
+  name: Luqman Ali
+  location: Singapore
+
+links:
+  linkedin: "https://www.linkedin.com/in/luqman-mohdali"
+  github: "https://github.com/lookieman"
+  cv: "/assets/cv/Luqman_Ali_CV.pdf"
+
+social:
+  name: Luqman Ali
+  links:
+    - "https://www.linkedin.com/in/luqman-mohdali"
+    - "https://github.com/lookieman"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable: true
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+collections:
+  enterprise_ai:
+    output: true
+    permalink: /enterprise-ai/:name/
+  methods:
+    output: true
+    permalink: /enterprise-ai/methods/:name/
+  builds:
+    output: true
+    permalink: /builds/:name/
+  research:
+    output: true
+    permalink: /research/:name/
+
+defaults:
+  - scope: { path: "" }
+    values: { layout: page }
+  - scope: { path: "", type: enterprise_ai }
+    values: { layout: case-study, section: /enterprise-ai/ }
+  - scope: { path: "", type: builds }
+    values: { layout: case-study, section: /builds/ }
+  - scope: { path: "", type: research }
+    values: { layout: case-study, section: /research/ }
+  - scope: { path: "", type: methods }
+    values: { layout: method, section: /enterprise-ai/ }
+
+exclude:
+  - PLAN.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts
+  - vendor
+  - .revamp

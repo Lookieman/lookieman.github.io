@@ -1,0 +1,2 @@
+{%- assign s = include.status | default: "Design" -%}
+<span class="badge badge-{{ s | downcase }}"><span class="sr-only">Status: </span>{{ s }}</span>
