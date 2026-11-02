@@ -3,7 +3,7 @@ title: Pathogen assay extraction from scientific papers
 group: research
 status: Prototype
 year: 2026
-descriptor: NTU MSc capstone with the Singapore Food Agency
+descriptor: NTU MSc capstone
 summary: Language models extract pathogen assay data from papers, so food safety teams spend less time on literature review.
 tags: [DSPy, GEPA, NCBI E-utilities, LLM extraction]
 repo:
@@ -17,11 +17,11 @@ diagram: |
 
 ## Context
 
-The Singapore Food Agency tracks pathogens through published research. Staff read papers to find isolates and the assays used on them. An existing tool based on BERT does part of this work.
+Food safety teams track pathogens through published research. They read papers to find isolates and the assays used on them. An existing tool based on BERT does part of this work.
 
 ## Problem
 
-Manual review is slow, and the BERT tool misses fields. The agency needs more accurate extraction that also works across pathogens: E. coli, Salmonella, Campylobacter, Listeria and Hepatitis A and E.
+Manual review is slow, and the BERT tool misses fields. Food safety teams need more accurate extraction that also works across pathogens: E. coli, Salmonella, Campylobacter, Listeria and Hepatitis A and E.
 
 ## My role
 
