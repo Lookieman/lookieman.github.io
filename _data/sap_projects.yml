@@ -30,6 +30,22 @@
     - Ran design workshops to collect requirements for the new tool on SAP Master Data Governance.
     - Led a team of five to build, test and roll out the solution to the agreed design.
 
+- title: Master data expert for S/4HANA selective data transition
+  descriptor: Global consumer goods company
+  country: Singapore
+  domain: integration
+  role: Master data expert
+  team_size: "9"
+  users:
+  summary: Worked on the master data stream of a multi-region S/4HANA conversion that merged three SAP instances and four clients into one regional system.
+  bullets:
+    - Worked in the nine-person SAP master data team on a multi-region S/4HANA selective data transition. SAP was the main systems integrator.
+    - Prepared the weekly resource plans and monthly forecasts for the master data stream.
+    - Contributed to the Business Partner web service design for the North and Latin America phase. The scope covered customer and supplier field mapping, data types and SLT replication.
+    - Started the SAP Process Orchestration configuration for the web service, then handed it over to the new owner.
+    - Reviewed a custom ABAP and CDS Business Partner key-mapping solution and assessed it for reuse with other customers.
+    - In the Asia phase, the programme had 50% fewer defects and fixed defects 30% faster than in the earlier EMEA phase.
+
 - title: Data governance expert
   descriptor: Mining corporation
   country: Australia
@@ -65,6 +81,7 @@
   users: "10 to 20"
   summary: Designed supplier governance on SAP MDG with identity checks on SAP BTP.
   bullets:
+    - Shaped the SAP MDG scope before contract signature.
     - Advised stream leads and line-of-business subject matter experts on SAP MDG functions.
     - Designed a solution that joins the SAP BTP Identity Management API and a custom Fiori app on SAP BTP to SAP MDG.
     - Wrote the detailed design for SAP MDG Supplier and its integration with third-party systems that enrich data.
@@ -78,6 +95,7 @@
   users: "20 to 50"
   summary: Shaped the data management and analytics design for the first S/4HANA rollout.
   bullets:
+    - Shaped the data management scope before contract signature.
     - Data architect and EIM advisor for data management in the Prepare and Explore phases of the first rollout.
     - Ran scoping and blueprint workshops, and guided the partner on the SAP MDG design.
     - Advised on the analytics strategy for S/4HANA and the position of each analytics solution.
