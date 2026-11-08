@@ -5,7 +5,7 @@ wide: true
 ---
 {% assign featured = site.enterprise_ai | concat: site.builds | concat: site.research | where: "featured", true %}
 {% assign articles = site.data.articles | default: empty | where_exp: "a", "a.url contains 'http'" %}
-{% if articles.size > 0 %}{% assign articles = articles | sort: "date" | reverse %}{% endif %}
+{% if articles.size > 0 %}{% assign articles = articles | sort: "order" | reverse %}{% endif %}
 
 <section class="hero" aria-labelledby="hero-title">
   <p class="kicker">Luqman Ali / Singapore</p>

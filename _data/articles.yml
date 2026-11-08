@@ -1,11 +1,22 @@
 # Only entries with a url that starts with http are shown on the site.
+# order: publication sequence across all articles (1 = first published).
+#   The Writing page lists each series in this order; Home shows the highest first.
+# project: slug of a case study page. That page links to the article.
 - series: AgentDQ
+  order: 1
   title: "Where Should the Intelligence Live in a Data Quality System?"
-  date: TODO
   summary: "Why AgentDQ uses agents for judgement and deterministic code for execution."
-  url: TODO
+  url: "https://www.linkedin.com/pulse/where-should-intelligence-live-data-quality-system-luqman-ali-x3rhe/"
+  project: agentdq
 - series: AgentDQ
+  order: 2
   title: "Can an Agent Decide What Your Data Quality Rules Should Be?"
-  date: TODO
   summary: "How a rule-suggestion agent proposes rules for a data steward to approve."
-  url: TODO
+  url: "https://www.linkedin.com/pulse/can-agent-decide-what-your-data-quality-rules-should-luqman-ali-et8je/"
+  project: agentdq
+- series: NTU MSc capstone
+  order: 3
+  title: "What Happens When You Let AI Optimise Its Own Prompts?"
+  summary: "DSPy and GEPA rewrote the extraction prompts in my capstone. Strict micro-F1 rose from 0.52 to 0.65."
+  url: "https://www.linkedin.com/pulse/what-happens-when-you-let-ai-optimise-its-own-prompts-luqman-ali-smyge/"
+  project: pathogen-extraction-sfa

@@ -18,5 +18,16 @@ layout: default
   <div class="prose">
     {{ content }}
   </div>
+  {% assign related = site.data.articles | where: "project", page.slug | where_exp: "a", "a.url contains 'http'" | sort: "order" %}
+  {% if related.size > 0 %}
+  <section class="related-writing" aria-labelledby="related-writing">
+    <h2 id="related-writing" class="section-title">Writing on this work</h2>
+    <ol class="index-list">
+    {% for a in related %}
+      <li><a href="{{ a.url }}"><span class="il-num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span><span class="il-title">{{ a.title }}</span><span class="il-text">{{ a.summary }}</span></a></li>
+    {% endfor %}
+    </ol>
+  </section>
+  {% endif %}
   <p class="back"><a href="{{ page.section | relative_url }}">Back to {{ parent.title }}</a></p>
 </article>
