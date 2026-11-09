@@ -1,11 +1,29 @@
 # Only entries with a url that starts with http are shown on the site.
+# date: publication date on LinkedIn (YYYY-MM-DD). It sets the order:
+#   the Writing page lists each series oldest first; Home shows the newest first.
+# project: slug of a case study page. That page links to the article.
+- series: NTU MSc capstone
+  date: 2026-07-16
+  title: "What Happens When You Let an AI Optimise Its Own Prompts?"
+  summary: "GEPA prompt optimisation raised strict micro-F1 from 0.52 to 0.65, but fixing the ground truth gave the biggest gain."
+  url: "https://www.linkedin.com/pulse/what-happens-when-you-let-ai-optimise-its-own-prompts-luqman-ali-smyge/"
+  project: pathogen-extraction-sfa
 - series: AgentDQ
+  date: 2026-08-03
   title: "Where Should the Intelligence Live in a Data Quality System?"
-  date: TODO
   summary: "Why AgentDQ uses agents for judgement and deterministic code for execution."
-  url: TODO
+  url: "https://www.linkedin.com/pulse/where-should-intelligence-live-data-quality-system-luqman-ali-x3rhe/"
+  project: agentdq
 - series: AgentDQ
+  date: 2026-08-23
   title: "Can an Agent Decide What Your Data Quality Rules Should Be?"
-  date: TODO
   summary: "How a rule-suggestion agent proposes rules for a data steward to approve."
+  url: "https://www.linkedin.com/pulse/can-agent-decide-what-your-data-quality-rules-should-luqman-ali-et8je/"
+  project: agentdq
+# Draft. Add the date and the LinkedIn URL when it is published.
+- series: AgentDQ
+  date: TODO
+  title: "How Do You Orchestrate Agents Around a Decision That Can Take Days?"
+  summary: "Why AgentDQ uses two graphs joined by a rules repository, instead of one graph that waits for a person."
   url: TODO
+  project: agentdq

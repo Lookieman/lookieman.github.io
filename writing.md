@@ -13,9 +13,9 @@ intro: "I write about what works when you build AI agents on enterprise data, an
 {% assign sid = s.name | slugify %}
 {% include section.html id=sid title=s.name %}
 <ol class="index-list">
-{% assign items = s.items | sort: "date" | reverse %}
+{% assign items = s.items | sort: "date" %}
 {% for a in items %}
-  <li><a href="{{ a.url }}"><span class="il-num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span><span class="il-title">{{ a.title }}</span><span class="il-text">{{ a.summary }}{% if a.date %} <span class="mono">{{ a.date }}</span>{% endif %}</span></a></li>
+  <li><a href="{{ a.url }}"><span class="il-num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span><span class="il-title">{{ a.title }}</span><span class="il-text">{{ a.summary }} <span class="mono">{{ a.date | date: "%-d %B %Y" }}</span></span></a></li>
 {% endfor %}
 </ol>
 {% endfor %}
